@@ -26,6 +26,24 @@ app.get('/', function homepage(req, res) {
     res.sendFile(__dirname + '/views/index.html');
   });
 
+app.get('/api', (req, res) => {
+    res.json({
+        message: 'These are the endpoints of this API',
+        documentationUrl: 'GITHUB LINK HERE',
+        baseUrl: 'HEROKU LINK HERE',
+        endpoints: [
+            {method: 'GET', path: '/api', description: 'Describes all endpoints'}
+        ]
+    });
+});
+
+app.get('/all', (req, res) => {
+    db.Flower.find( (err, foundFlowers) => {
+        if (err) {console.log('there was an error with all')}
+        res.json(foundFlowers)
+    })
+})
+
 /**********
  * SERVER *
  **********/
