@@ -18,9 +18,9 @@ const db = require('./models');
 // i.e. `/images`, `/scripts`, `/styles`
 app.use(express.static('public'));
 
-/*
- * HTML Endpoints
- */
+/******************
+ * HTML Endpoints *
+ ******************/
 //  route to serve landing page
 app.get('/', function homepage(req, res) {
     res.sendFile(__dirname + '/views/index.html');
@@ -36,6 +36,10 @@ app.get('/api', (req, res) => {
         ]
     });
 });
+
+/**************
+ * APP ROUTES *
+ **************/
 
 app.get('/all', (req, res) => {
     db.Flower.find( (err, foundFlowers) => {
