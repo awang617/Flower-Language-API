@@ -6,10 +6,11 @@ const FlowerSchema = new Schema ({
   scientificName: String,
   meaning: String,
   description: String,
-  sources: String,
-  image: String
+  image: String,
+  sources: [String],
+  imageSource: String
 });
 
-const Flower = mongoose.model('Movie', FlowerSchema);
+const Flower = mongoose.model('Flower', FlowerSchema);
 
 module.exports = Flower;
