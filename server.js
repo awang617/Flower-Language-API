@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const router = express.Router();
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -41,11 +42,64 @@ app.get('/api', (req, res) => {
  * APP ROUTES *
  **************/
 
-app.get('/all', (req, res) => {
+// GET all flowers from database
+app.get('/api/all', (req, res) => {
     db.Flower.find( (err, foundFlowers) => {
-        if (err) {console.log('there was an error with all')}
+        if (err) {console.log('there was an error with api/all')}
         res.json(foundFlowers)
     })
+})
+
+// GET flowers with a certain name
+app.get("/name/:name", (req, res) => {
+    console.log(req.params.name);
+    let name = req.params.name;
+    // res.send('searched, ' + name);
+    db.Flower.find( {name:name}, (err, foundFlower) => {
+        if (err) {
+            return res.json({foundFlowers:null})
+        }
+        res.json(foundFlower)
+    })
+  });
+
+
+app.get("/meaning/:meaning", (req, res) => {
+      let meaning = req.params.meaning
+      db.Flower.find( {meaning: meaning}, (err, foundFlowers) => {
+          if (err) {
+            return res.json({foundFlowers:null})
+          }
+          res.json(foundFlowers)
+      })
+  })
+
+app.get("/search/name", (req, res, next) => {
+    console.log(req.query.q)
+    let name = req.query.q;
+    let regex = new RegExp(name)
+    console.log(regex)
+    db.Flower.find(
+        {name: {$regex: new RegExp(name)} }, 
+        {_id: 0,__v: 0}, 
+        (err, data) => {
+            res.json(data)
+        }
+    )
+})
+
+app.get("/search/meaning", (req, res, next) => {
+    console.log(req.query.q)
+    let meaning = req.query.q;
+    let regex = new RegExp(meaning)
+    console.log(regex)
+    db.Flower.find(
+        {meaning: {$regex: new RegExp(meaning)} }, 
+        {_id: 0,__v: 0}, 
+        (err, data) => {
+            res.json(data)
+        }
+    )
 })
 
 /**********
