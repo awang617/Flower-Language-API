@@ -111,6 +111,6 @@ app.get("/search/meaning", (req, res, next) => {
  **********/
 
 // listen on the port that Heroku prescribes (process.env.PORT) OR port 3000
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log('Express server is up and running on http://localhost:3000/');
 });
