@@ -63,22 +63,21 @@ app.get("/name/:name", (req, res) => {
     })
   });
 
-
+// GET flowers with a certain meaning
 app.get("/meaning/:meaning", (req, res) => {
-      let meaning = req.params.meaning
-      db.Flower.find( {meaning: meaning}, (err, foundFlowers) => {
-          if (err) {
-            return res.json({foundFlowers:null})
-          }
-          res.json(foundFlowers)
-      })
-  })
+    let meaning = req.params.meaning
+    db.Flower.find( {meaning: meaning}, (err, foundFlowers) => {
+        if (err) {
+        return res.json({foundFlowers:null})
+        }
+        res.json(foundFlowers)
+    })
+})
 
+// Partial search for name
 app.get("/search/name", (req, res, next) => {
-    console.log(req.query.q)
+    // console.log(req.query.q)
     let name = req.query.q;
-    let regex = new RegExp(name)
-    console.log(regex)
     db.Flower.find(
         {name: {$regex: new RegExp(name)} }, 
         {_id: 0,__v: 0}, 
@@ -88,11 +87,10 @@ app.get("/search/name", (req, res, next) => {
     )
 })
 
+// Partial search for meaning
 app.get("/search/meaning", (req, res, next) => {
-    console.log(req.query.q)
+    // console.log(req.query.q)
     let meaning = req.query.q;
-    let regex = new RegExp(meaning)
-    console.log(regex)
     db.Flower.find(
         {meaning: {$regex: new RegExp(meaning)} }, 
         {_id: 0,__v: 0}, 
