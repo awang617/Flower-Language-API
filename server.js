@@ -82,6 +82,9 @@ app.get("/search/name", (req, res, next) => {
         {name: {$regex: new RegExp(name)} }, 
         {_id: 0,__v: 0}, 
         (err, data) => {
+            if (err) {
+                return res.json({data: null})
+            }
             res.json(data)
         }
     )
@@ -95,6 +98,9 @@ app.get("/search/meaning", (req, res, next) => {
         {meaning: {$regex: new RegExp(meaning)} }, 
         {_id: 0,__v: 0}, 
         (err, data) => {
+            if (err) {
+                return res.json({data: null})
+            }
             res.json(data)
         }
     )
