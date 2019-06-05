@@ -1,9 +1,12 @@
 const express = require('express');
-const app = express();
-const router = express.Router();
-
+const cors = require('cors')
 const bodyParser = require('body-parser');
+
+const app = express();
+
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
+
 
 // allow cross origin requests (optional)
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
@@ -50,6 +53,17 @@ app.get('/api/all', (req, res) => {
     })
 })
 
+// GET flower by id
+app.get("/flower/:id", (req, res) => {
+    let flowerid = req.params.id
+    db.Flower.findOne({_id: flowerid}, (err, foundFlower)=> {
+        if (err) {
+            console.log('error with flowerid')
+        }
+        res.json(foundFlower)
+    })
+})
+
 // GET flowers with a certain name
 app.get("/name/:name", (req, res) => {
     console.log(req.params.name);
@@ -78,9 +92,10 @@ app.get("/meaning/:meaning", (req, res) => {
 app.get("/search/name", (req, res, next) => {
     // console.log(req.query.q)
     let name = req.query.q;
+    
     db.Flower.find(
         {name: {$regex: new RegExp(name)} }, 
-        {_id: 0,__v: 0}, 
+        {__v: 0}, 
         (err, data) => {
             if (err) {
                 return res.json({data: null})
@@ -96,7 +111,7 @@ app.get("/search/meaning", (req, res, next) => {
     let meaning = req.query.q;
     db.Flower.find(
         {meaning: {$regex: new RegExp(meaning)} }, 
-        {_id: 0,__v: 0}, 
+        {__v: 0}, 
         (err, data) => {
             if (err) {
                 return res.json({data: null})
@@ -112,5 +127,5 @@ app.get("/search/meaning", (req, res, next) => {
 
 // listen on the port that Heroku prescribes (process.env.PORT) OR port 3000
 app.listen(process.env.PORT || 3001, () => {
-    console.log('Express server is up and running on http://localhost:3000/');
+    console.log('Express server is up and running on http://localhost:3001/');
 });
