@@ -5,7 +5,7 @@ const db = require ('./models');
 const flower_list = [
     {
         name: 'abutilon',
-        scientificName: 'abutilon',
+        scientificName: 'Abutilon',
         meaning: 'meditation',
         description: '',
         image: '',
@@ -14,7 +14,7 @@ const flower_list = [
     },
     {
         name: 'acacia',
-        scientificName: 'acacia',
+        scientificName: 'Acacia',
         meaning: 'secret love',
         description: '',
         image: '',
@@ -2303,7 +2303,7 @@ const flower_list = [
         scientificName: 'Tulipa',
         meaning: 'declaration of love',
         description: '',
-        image: '',
+        image: 'https://images.homedepot-static.com/productImages/71c23308-8d69-46bd-b9d3-af5a40c6e45c/svn/garden-state-bulb-flower-bulbs-hof18-05-64_1000.jpg',
         sources: [],
         imageSource: ''
     },
