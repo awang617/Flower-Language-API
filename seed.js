@@ -170,9 +170,9 @@ const flower_list = [
         scientificName: 'Centaurea cyanus',
         meaning: 'single blessedness',
         description: '',
-        image: '',
+        image: 'https://cdn.shopify.com/s/files/1/2954/2248/products/Bachelor-Button-Cyanus-Double-Mixed-Colors-Flower-Annual-Ferry-Morse_1400x.jpg?v=1547673488',
         sources: '',
-        imageSource: ''
+        imageSource: 'https://ferrymorse.com/products/bachelor-button-cyanus-double-mixed-colors'
     },
     {
         name: 'basil',
