@@ -7,19 +7,19 @@ const flower_list = [
         name: 'abutilon',
         scientificName: 'Abutilon',
         meaning: 'meditation',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: 'Also known as flowering maple, parlor maple, Chinese lantern or Chinese bellflower, abutilon is an upright, branching plant with leaves that resemble maple leaves; however, abutilon isn’t a maple and is actually a member of the mallow family. This plant is often grown as a houseplant.',
+        image: 'https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2017/08/abutilon.jpg',
+        sources: 'https://www.gardeningknowhow.com/houseplants/flowering-maple/flowering-maple-care-outdoors.htm',
+        imageSource: 'https://www.istockphoto.com/photo/macro-of-a-beautiful-abutilon-pictum-flower-gm519219198-90425865'
     },
     {
         name: 'acacia',
         scientificName: 'Acacia',
         meaning: 'secret love',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: 'Acacia Flowers are typically small, yellow and fragrant with many stamens, giving the flower a fuzzy appearance. The Acacia flower heads are actually lots of little flowers bundled together. Acacia Flowers can vary in color from cream, pale yellow through to gold. One species, Acacia purpureapetala, has purple flowers whilst a form of Acacia leprosa has red flowers. Individual Acacia Flowers are arranged in inflorescences that may be either globular heads or cylindrical spikes. Each Acacia inflorescence may comprise from as few as 3 individual flowers (e.g. Acacia lunata) to as many as 130 or more (e.g. Acacia anceps).',
+        image: 'https://curiousprovence.com/wp-content/uploads/2015/05/ontreecurious.jpg',
+        sources: 'https://www.theflowerexpert.com/content/growingflowers/flowersandgeography/acacia-flowers',
+        imageSource: 'https://curiousprovence.com'
     },
     {
         name: 'acanthus',
@@ -27,7 +27,7 @@ const flower_list = [
         meaning: 'artifice',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -36,25 +36,25 @@ const flower_list = [
         meaning: 'love letter',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'allium',
         scientificName: 'Allium',
         meaning: 'prosperity',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: 'Allium plants vary in height between 5 cm and 150 cm. The flowers of allium form an umbel at the top of a leafless stalk. Alliums have strappy, undistinguished leaves and straight tubular flower stalks. The flower form in clusters and are best known in the round pom-pom form, but they can be start shaped, cup-shaped, semi-circular or pendulous. ',
+        image: 'https://www.whiteflowerfarm.com/mas_assets/cache/image/4/7/5/6/18262.Jpg',
+        sources: 'https://www.theflowerexpert.com/content/growingflowers/growingflowers/allium',
+        imageSource: 'https://www.whiteflowerfarm.com'
     },
     {
-        name: 'almond Blossom',
+        name: 'almond blossom',
         scientificName: 'Amygdalus communis',
         meaning: 'indiscretion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -63,7 +63,7 @@ const flower_list = [
         meaning: 'grief',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -72,7 +72,7 @@ const flower_list = [
         meaning: 'devotion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -81,7 +81,7 @@ const flower_list = [
         meaning: 'worth beyond beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -90,26 +90,26 @@ const flower_list = [
         meaning: 'immortality',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'amaryllis',
         scientificName: 'Hippeastrum',
         meaning: 'pride',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: ' Ornamental plants of Amaryllidaceae family are mistakenly called lilies. Amaryllidaceae species are considered more advanced in evolution than the lilies. Sometimes the amaryllis family is included in the Liliaceae. Amaryllis is cultivated for its beautiful and colorful flowers. The Amaryllis flower stem is erect, 5-60 cm tall, 1-3 cm in diameter, and hollow. A stunning amaryllis flower has dark red markings or different colors appearing on the stalks.',
+        image: 'https://images.homedepot-static.com/productImages/4e853726-1fcf-41c6-b36a-fd734cf8b664/svn/van-zyverden-flower-bulbs-21409-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/aboutflowers/exoticflowers/amaryllis',
+        imageSource: 'https://www.homedepot.com/p/Van-Zyverden-Amaryllis-Bulbs-Blossom-Peacock-Set-of-1-Bulb-21409/302432302'
     },
     {
         name: 'anemone',
         scientificName: 'Anemone',
         meaning: 'forsaken',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: ' The name Anemone comes from Greek and roughly means wind flower, which signifies that the wind that blows the petal open will also, eventually, blow the dead petals away. The Anemone plants are perennial herbs with an underground rootstock, and radical, more or less deeply cut leaves. The elongated flower stem bears one or several, white, red, blue or rarely yellow flowers. There is an involucre of three leaflets below each flower.',
+        image: 'https://images.homedepot-static.com/productImages/f5e53c22-237e-45b2-9ebf-206f374f8fbd/svn/van-zyverden-flower-bulbs-834051-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/anemone',
+        imageSource: 'https://www.homedepot.com/p/Van-Zyverden-Wind-Flowers-Anemones-Meron-Bordeaux-Bulbs-Set-of-25-834051/301135348'
     },
     {
         name: 'angelica',
@@ -117,7 +117,7 @@ const flower_list = [
         meaning: 'inspiration',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -126,7 +126,7 @@ const flower_list = [
         meaning: 'temptation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -135,7 +135,7 @@ const flower_list = [
         meaning: 'preference',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -144,7 +144,7 @@ const flower_list = [
         meaning: 'patience',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -153,7 +153,7 @@ const flower_list = [
         meaning: 'fragile and ephemeral passion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -162,7 +162,7 @@ const flower_list = [
         meaning: 'everlasting love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -171,7 +171,7 @@ const flower_list = [
         meaning: 'single blessedness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -180,7 +180,7 @@ const flower_list = [
         meaning: 'hate',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -189,7 +189,7 @@ const flower_list = [
         meaning: 'i change but in death',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -198,7 +198,7 @@ const flower_list = [
         meaning: 'caution',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -207,7 +207,7 @@ const flower_list = [
         meaning: 'gratitude',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -216,7 +216,7 @@ const flower_list = [
         meaning: 'good luck',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -225,7 +225,7 @@ const flower_list = [
         meaning: 'magnificence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -234,7 +234,7 @@ const flower_list = [
         meaning: 'envy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -243,7 +243,7 @@ const flower_list = [
         meaning: 'justice',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -252,7 +252,7 @@ const flower_list = [
         meaning: 'constancy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -261,7 +261,7 @@ const flower_list = [
         meaning: 'passion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -270,7 +270,7 @@ const flower_list = [
         meaning: 'enthusiasm',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -279,7 +279,7 @@ const flower_list = [
         meaning: 'humility',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -288,7 +288,7 @@ const flower_list = [
         meaning: 'ingratitude',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -297,7 +297,7 @@ const flower_list = [
         meaning: 'profit',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -306,7 +306,7 @@ const flower_list = [
         meaning: 'ardent love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -315,7 +315,7 @@ const flower_list = [
         meaning: 'modesty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -324,7 +324,7 @@ const flower_list = [
         meaning: 'my destiny is in your hands',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -333,7 +333,7 @@ const flower_list = [
         meaning: 'indifference',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -342,7 +342,7 @@ const flower_list = [
         meaning: 'constancy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -351,7 +351,7 @@ const flower_list = [
         meaning: 'i will never forget you',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -360,7 +360,7 @@ const flower_list = [
         meaning: 'my heart breaks',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -369,7 +369,7 @@ const flower_list = [
         meaning: 'i cannot be with you',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -378,7 +378,7 @@ const flower_list = [
         meaning: 'sweet and lovely',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -387,7 +387,7 @@ const flower_list = [
         meaning: 'disdain',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -396,7 +396,7 @@ const flower_list = [
         meaning: 'joys to come',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -405,7 +405,7 @@ const flower_list = [
         meaning: 'energy in adversity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -414,7 +414,7 @@ const flower_list = [
         meaning: 'impermanence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -423,7 +423,7 @@ const flower_list = [
         meaning: 'sincerity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -432,7 +432,7 @@ const flower_list = [
         meaning: 'do me justice',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -441,7 +441,7 @@ const flower_list = [
         meaning: 'frugality',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -450,7 +450,7 @@ const flower_list = [
         meaning: 'truth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -459,7 +459,7 @@ const flower_list = [
         meaning: 'beloved daughter',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -468,7 +468,7 @@ const flower_list = [
         meaning: 'poverty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -477,7 +477,7 @@ const flower_list = [
         meaning: 'i have loved you and you have not known it',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -486,7 +486,7 @@ const flower_list = [
         meaning: 'think of me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -495,7 +495,7 @@ const flower_list = [
         meaning: 'affectation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -504,7 +504,7 @@ const flower_list = [
         meaning: 'desertion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -513,7 +513,7 @@ const flower_list = [
         meaning: 'always cheerful',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -522,7 +522,7 @@ const flower_list = [
         meaning: 'hidden Worth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -531,7 +531,7 @@ const flower_list = [
         meaning: 'riches',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -540,7 +540,7 @@ const flower_list = [
         meaning: 'joy in love and life',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -549,7 +549,7 @@ const flower_list = [
         meaning: 'pensiveness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -558,7 +558,7 @@ const flower_list = [
         meaning: 'ill-tempered',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -567,7 +567,7 @@ const flower_list = [
         meaning: 'cure for heartache',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -576,7 +576,7 @@ const flower_list = [
         meaning: 'youthful gladness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -585,7 +585,7 @@ const flower_list = [
         meaning: 'thy frown will kill me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -594,7 +594,7 @@ const flower_list = [
         meaning: 'timid hope',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -603,7 +603,7 @@ const flower_list = [
         meaning: 'mourning',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -612,7 +612,7 @@ const flower_list = [
         meaning: 'new beginnings',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -621,7 +621,7 @@ const flower_list = [
         meaning: 'dignity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -630,7 +630,7 @@ const flower_list = [
         meaning: 'innocence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -639,7 +639,7 @@ const flower_list = [
         meaning: 'cheerfulness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -648,7 +648,7 @@ const flower_list = [
         meaning: 'rustic oracle',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -657,7 +657,7 @@ const flower_list = [
         meaning: 'i would not have you otherwise',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -666,7 +666,7 @@ const flower_list = [
         meaning: 'coquetry',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -675,7 +675,7 @@ const flower_list = [
         meaning: 'levity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -684,7 +684,7 @@ const flower_list = [
         meaning: 'make haste',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -693,7 +693,7 @@ const flower_list = [
         meaning: 'childbirth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -702,7 +702,7 @@ const flower_list = [
         meaning: 'love undiminished by adversity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -711,7 +711,7 @@ const flower_list = [
         meaning: 'you are near a snare',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -720,7 +720,7 @@ const flower_list = [
         meaning: 'noble courage',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -729,7 +729,7 @@ const flower_list = [
         meaning: 'compassion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -738,7 +738,7 @@ const flower_list = [
         meaning: 'protection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -747,7 +747,7 @@ const flower_list = [
         meaning: 'persistence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -756,7 +756,7 @@ const flower_list = [
         meaning: 'inconstancy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -765,7 +765,7 @@ const flower_list = [
         meaning: 'lasting pleasure',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -774,7 +774,7 @@ const flower_list = [
         meaning: 'strength',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -783,7 +783,7 @@ const flower_list = [
         meaning: 'sincerity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -792,7 +792,7 @@ const flower_list = [
         meaning: 'secrecy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -801,7 +801,7 @@ const flower_list = [
         meaning: 'warmth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -810,7 +810,7 @@ const flower_list = [
         meaning: 'argument',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -819,7 +819,7 @@ const flower_list = [
         meaning: 'i feel your kindness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -828,7 +828,7 @@ const flower_list = [
         meaning: 'forget me not',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -837,7 +837,7 @@ const flower_list = [
         meaning: 'anticipation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -846,7 +846,7 @@ const flower_list = [
         meaning: 'insincerity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -855,7 +855,7 @@ const flower_list = [
         meaning: 'lasting friendship',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -864,7 +864,7 @@ const flower_list = [
         meaning: 'humble love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -873,7 +873,7 @@ const flower_list = [
         meaning: 'refinement',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -882,7 +882,7 @@ const flower_list = [
         meaning: 'intrinsic worth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -891,7 +891,7 @@ const flower_list = [
         meaning: 'true friendship',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -900,7 +900,7 @@ const flower_list = [
         meaning: 'ingenuity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -909,7 +909,7 @@ const flower_list = [
         meaning: 'stupidity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -918,7 +918,7 @@ const flower_list = [
         meaning: 'steadfast piety',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -927,7 +927,7 @@ const flower_list = [
         meaning: 'strength',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -936,7 +936,7 @@ const flower_list = [
         meaning: 'you pierce my heart',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -945,7 +945,7 @@ const flower_list = [
         meaning: 'careful encouragement',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -954,7 +954,7 @@ const flower_list = [
         meaning: 'abundance',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -963,7 +963,7 @@ const flower_list = [
         meaning: 'submission',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -972,7 +972,7 @@ const flower_list = [
         meaning: 'hope',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -981,7 +981,7 @@ const flower_list = [
         meaning: 'reconciliation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -990,7 +990,7 @@ const flower_list = [
         meaning: 'solitude',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -999,7 +999,7 @@ const flower_list = [
         meaning: 'protection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1008,7 +1008,7 @@ const flower_list = [
         meaning: 'tears',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1017,7 +1017,7 @@ const flower_list = [
         meaning: 'devoted affection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1026,7 +1026,7 @@ const flower_list = [
         meaning: 'delicate beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1035,7 +1035,7 @@ const flower_list = [
         meaning: 'foresight',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1044,7 +1044,7 @@ const flower_list = [
         meaning: 'ambition',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1053,7 +1053,7 @@ const flower_list = [
         meaning: 'honesty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1062,7 +1062,7 @@ const flower_list = [
         meaning: 'devotion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1071,7 +1071,7 @@ const flower_list = [
         meaning: 'constancy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1080,7 +1080,7 @@ const flower_list = [
         meaning: 'please forgive me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1089,7 +1089,7 @@ const flower_list = [
         meaning: 'beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1098,7 +1098,7 @@ const flower_list = [
         meaning: 'dispassion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1107,7 +1107,7 @@ const flower_list = [
         meaning: 'your looks freeze me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1116,17 +1116,17 @@ const flower_list = [
         meaning: 'impatience',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'iris',
         scientificName: 'Iris',
         meaning: 'message',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: 'Irises are wonderful garden plants. The word Iris means rainbow. Irises come in many colors such as blue and purple, white and yellow, pink and orange, brown and red, and even black. The genus Iris has about 200 species and is native to the North Temperate regions of the world. The habitat of irises also varies a lot. Some irises grow in deserts, some in swamps, some in the cold far north, and many in temperate climates. Bearded Iris and Siberian Iris are two of the most common types of irises grown.',
+        image: 'https://images.homedepot-static.com/productImages/cc37562f-15e0-40ca-8713-f83c7a0cb31e/svn/breck-s-perennials-67716-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/iris',
+        imageSource: 'https://www.homedepot.com/p/Breck-s-Fatal-Attraction-Bearded-Iris-2-Toned-Blue-Flowers-Live-Bareroot-Plant-67716/307472721'
     },
     {
         name: 'ivy',
@@ -1134,7 +1134,7 @@ const flower_list = [
         meaning: 'fidelity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1143,7 +1143,7 @@ const flower_list = [
         meaning: 'come down',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1152,7 +1152,7 @@ const flower_list = [
         meaning: 'separation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1161,7 +1161,7 @@ const flower_list = [
         meaning: 'attachment',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1170,7 +1170,7 @@ const flower_list = [
         meaning: 'amiability',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1179,7 +1179,7 @@ const flower_list = [
         meaning: 'desire',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1188,7 +1188,7 @@ const flower_list = [
         meaning: 'pensive beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1197,7 +1197,7 @@ const flower_list = [
         meaning: 'capricious beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1206,7 +1206,7 @@ const flower_list = [
         meaning: 'rigor',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1215,7 +1215,7 @@ const flower_list = [
         meaning: 'audacity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1224,7 +1224,7 @@ const flower_list = [
         meaning: 'lightness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1233,7 +1233,7 @@ const flower_list = [
         meaning: 'glory and success',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1242,7 +1242,7 @@ const flower_list = [
         meaning: 'mistrust',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1251,7 +1251,7 @@ const flower_list = [
         meaning: 'zest',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1260,7 +1260,7 @@ const flower_list = [
         meaning: 'discretion',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1269,7 +1269,7 @@ const flower_list = [
         meaning: 'coldheartedness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1278,7 +1278,7 @@ const flower_list = [
         meaning: 'i will try again',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1287,7 +1287,7 @@ const flower_list = [
         meaning: 'dejection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1296,16 +1296,16 @@ const flower_list = [
         meaning: 'first emotions of love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'lily',
         scientificName: 'Lilum',
         meaning: 'majesty',
-        description: '',
-        image: '',
-        sources: [],
+        description: ' Lilies of different kinds are commonly found all across the globe. Lilies come in different shapes, sizes and colors. Lilies are really excellent plants for beds and borders. Lilies are suitable for use in a shrub border, as accent plants, a formal or naturalized pool planting. Even some of the small species would fit perfectly in an alpine rock garden.',
+        image: 'https://www.whiteflowerfarm.com/mas_assets/cache/image/5/1/c/d/20941.Jpg',
+        sources: 'https://www.whiteflowerfarm.com/lily-flower-bulbs',
         imageSource: ''
     },
     {
@@ -1314,7 +1314,7 @@ const flower_list = [
         meaning: 'return of happiness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1323,7 +1323,7 @@ const flower_list = [
         meaning: 'conjugal love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1332,7 +1332,7 @@ const flower_list = [
         meaning: 'appreciation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1341,7 +1341,7 @@ const flower_list = [
         meaning: 'malevolence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1350,7 +1350,7 @@ const flower_list = [
         meaning: 'purity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1359,7 +1359,7 @@ const flower_list = [
         meaning: 'perplexity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1368,7 +1368,7 @@ const flower_list = [
         meaning: 'hopeless but not helpness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1377,7 +1377,7 @@ const flower_list = [
         meaning: 'you are my life',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1386,7 +1386,7 @@ const flower_list = [
         meaning: 'imagination',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1395,7 +1395,7 @@ const flower_list = [
         meaning: 'dignity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1404,7 +1404,7 @@ const flower_list = [
         meaning: 'grief',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1413,7 +1413,7 @@ const flower_list = [
         meaning: 'blushes',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1422,7 +1422,7 @@ const flower_list = [
         meaning: 'desire for riches',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1431,7 +1431,7 @@ const flower_list = [
         meaning: 'my best days are past',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1440,7 +1440,7 @@ const flower_list = [
         meaning: 'uselessness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1449,7 +1449,7 @@ const flower_list = [
         meaning: 'farewell',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1458,7 +1458,7 @@ const flower_list = [
         meaning: 'your qualities surpass your charms',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1467,7 +1467,7 @@ const flower_list = [
         meaning: 'sensitivity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1476,7 +1476,7 @@ const flower_list = [
         meaning: 'i surmount all obstacles',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1485,7 +1485,7 @@ const flower_list = [
         meaning: 'counterfeit',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1494,7 +1494,7 @@ const flower_list = [
         meaning: 'chivalry',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1503,7 +1503,7 @@ const flower_list = [
         meaning: 'coquetry',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1512,7 +1512,7 @@ const flower_list = [
         meaning: 'maternal love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1521,7 +1521,7 @@ const flower_list = [
         meaning: 'take courage',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1530,7 +1530,7 @@ const flower_list = [
         meaning: 'i am hurt',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1539,17 +1539,17 @@ const flower_list = [
         meaning: 'love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'narcissus',
         scientificName: 'Narcissus',
         meaning: 'self-love',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: ' Narcissus is one of the most popular flowers in the world and the most popular flower in Germany. Narcissus JonquilaA spring-flowering bulb, Narcissus is the name of a genus which includes flower bulbs like Daffodils, Jonquils, Paper whites and so forth. Narcissi (plural form of Narcissus) are easily grown from bulbs. The word Narcissus is derived from the Greek word narke, meaning numbness or stupor. Some attribute the naming of the flower to its narcotic fragrance while others debate that it is associated with the poisonous nature of the Narcissus bulbs.',
+        image: 'https://images.homedepot-static.com/productImages/0f1bedcb-8b6a-455f-a953-a3ee53e97c47/svn/van-bourgondien-flower-bulbs-87828-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/narcissus',
+        imageSource: 'https://www.homedepot.com/p/Van-Bourgondien-Ice-Follies-Large-Cupped-Daffodil-Narcissus-Bulbs-25-Pack-87828/307775088'
     },
     {
         name: 'nasturtium',
@@ -1557,7 +1557,7 @@ const flower_list = [
         meaning: 'impetuous love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1566,7 +1566,7 @@ const flower_list = [
         meaning: 'cruelty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1575,7 +1575,7 @@ const flower_list = [
         meaning: 'the witching soul of music',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1584,7 +1584,7 @@ const flower_list = [
         meaning: 'beware',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1593,7 +1593,7 @@ const flower_list = [
         meaning: 'peace',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1602,7 +1602,7 @@ const flower_list = [
         meaning: 'generosity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1611,7 +1611,7 @@ const flower_list = [
         meaning: 'your purity equals your loveliness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1620,7 +1620,7 @@ const flower_list = [
         meaning: 'refined beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1629,7 +1629,7 @@ const flower_list = [
         meaning: 'joy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1638,7 +1638,7 @@ const flower_list = [
         meaning: 'think of me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1647,7 +1647,7 @@ const flower_list = [
         meaning: 'festivity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1656,7 +1656,7 @@ const flower_list = [
         meaning: 'faith',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1665,7 +1665,7 @@ const flower_list = [
         meaning: 'your charms are unequaled',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1674,7 +1674,7 @@ const flower_list = [
         meaning: 'i am your captive',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1683,7 +1683,7 @@ const flower_list = [
         meaning: 'affection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1692,17 +1692,17 @@ const flower_list = [
         meaning: 'comfort',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'peony',
         scientificName: 'Paeonia',
         meaning: 'anger',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: 'Peonies produce large, often fragrant flowers. Blooming in late Spring and early summer, Peonies come in shades of red to white or yellow. Peonies are native to Asia, Southern Europe and Western North America. Peonies are hardy flowering plants that need little care and live through severe winters. After becoming established in a garden, Peonies bloom each spring for many years. Peonies are also extensively grown as ornamental plants for their very large, often scented cut flowers.',
+        image: 'https://images.homedepot-static.com/productImages/78eb16ea-7e7a-457b-86fc-8b517d39c5ed/svn/van-zyverden-flower-bulbs-21551-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/peonies',
+        imageSource: 'https://www.homedepot.com/p/Van-Zyverden-Peonies-Bulbs-Sarah-Bernhardt-Set-of-3-Roots-21551/302432286'
     },
     {
         name: 'peppermint',
@@ -1710,7 +1710,7 @@ const flower_list = [
         meaning: 'warmth of feeling',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1719,7 +1719,7 @@ const flower_list = [
         meaning: 'tender recollections',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1728,7 +1728,7 @@ const flower_list = [
         meaning: `bury me amid nature's beauty`,
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1737,7 +1737,7 @@ const flower_list = [
         meaning: 'your prensence soothes me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1746,7 +1746,7 @@ const flower_list = [
         meaning: 'our souls are united',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1755,7 +1755,7 @@ const flower_list = [
         meaning: 'you are perfect',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1764,7 +1764,7 @@ const flower_list = [
         meaning: 'pure love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1773,7 +1773,7 @@ const flower_list = [
         meaning: 'keep your promises',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1782,7 +1782,7 @@ const flower_list = [
         meaning: 'be of good cheer',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1791,7 +1791,7 @@ const flower_list = [
         meaning: 'confidence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1800,7 +1800,7 @@ const flower_list = [
         meaning: 'foolishness',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1809,7 +1809,7 @@ const flower_list = [
         meaning: 'mature elegance',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1818,7 +1818,7 @@ const flower_list = [
         meaning: 'courage',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1827,7 +1827,7 @@ const flower_list = [
         meaning: 'time',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1836,7 +1836,7 @@ const flower_list = [
         meaning: 'fantastic Extravagance',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1845,7 +1845,7 @@ const flower_list = [
         meaning: 'benevolence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1854,7 +1854,7 @@ const flower_list = [
         meaning: 'you are delicious',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1863,7 +1863,7 @@ const flower_list = [
         meaning: 'childhood',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1872,7 +1872,7 @@ const flower_list = [
         meaning: 'courage',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1881,7 +1881,7 @@ const flower_list = [
         meaning: 'strength and health',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1890,7 +1890,7 @@ const flower_list = [
         meaning: 'fantasy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1899,7 +1899,7 @@ const flower_list = [
         meaning: 'temptation',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1908,7 +1908,7 @@ const flower_list = [
         meaning: 'you are radiant with charms',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1917,7 +1917,7 @@ const flower_list = [
         meaning: 'remorse',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1926,7 +1926,7 @@ const flower_list = [
         meaning: 'betrayal',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1935,7 +1935,7 @@ const flower_list = [
         meaning: 'beware',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1944,7 +1944,7 @@ const flower_list = [
         meaning: 'advice',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1953,7 +1953,7 @@ const flower_list = [
         meaning: 'unconscious beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1962,7 +1962,7 @@ const flower_list = [
         meaning: 'confession of love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1971,7 +1971,7 @@ const flower_list = [
         meaning: 'fascination',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1980,7 +1980,7 @@ const flower_list = [
         meaning: 'modesty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1989,7 +1989,7 @@ const flower_list = [
         meaning: 'grace',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -1998,7 +1998,7 @@ const flower_list = [
         meaning: 'enchantment',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2007,7 +2007,7 @@ const flower_list = [
         meaning: 'love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2016,7 +2016,7 @@ const flower_list = [
         meaning: 'a heart unacquainted with love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2025,7 +2025,7 @@ const flower_list = [
         meaning: 'infidelity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2034,7 +2034,7 @@ const flower_list = [
         meaning: 'remembrance',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2043,7 +2043,7 @@ const flower_list = [
         meaning: 'beware of excess',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2052,7 +2052,7 @@ const flower_list = [
         meaning: 'good health and long life',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2061,7 +2061,7 @@ const flower_list = [
         meaning: 'superstition',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2070,7 +2070,7 @@ const flower_list = [
         meaning: 'affection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2079,7 +2079,7 @@ const flower_list = [
         meaning: 'unfortunate love',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2088,7 +2088,7 @@ const flower_list = [
         meaning: 'change',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2097,17 +2097,17 @@ const flower_list = [
         meaning: 'presumption',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'snowdrop',
         scientificName: 'Galanthus',
         meaning: 'consolation and hope',
-        description: '',
-        image: '',
-        sources: [],
-        imageSource: ''
+        description: ' There are 75 different species and varieties of Snowdrops. They are all white. This is probably why only two species are commonly cultivated. The first is Galanthus nivalis, usually known as the Garden Snowdrop. A Snowdrop plant looks like three drops of milk hanging from a stem. This accounts for the Latin name Galanthus which means milk-white flowers. These Snowdrop bulbs, are originally from Europe and Asia Minor.',
+        image: 'https://images.homedepot-static.com/productImages/45d914f3-b469-46d2-876b-69bf1588a03f/svn/van-zyverden-flower-bulbs-21487-64_1000.jpg',
+        sources: 'https://www.theflowerexpert.com/content/aboutflowers/wildflowers/snow-drop',
+        imageSource: 'https://www.homedepot.com/p/Van-Zyverden-Galanthus-Bulbs-Snowdrops-Set-of-25-21487/302431547'
     },
     {
         name: 'sorrel',
@@ -2115,7 +2115,7 @@ const flower_list = [
         meaning: 'parental affection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2124,7 +2124,7 @@ const flower_list = [
         meaning: 'fidelity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2133,7 +2133,7 @@ const flower_list = [
         meaning: 'victory',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2142,7 +2142,7 @@ const flower_list = [
         meaning: 'purity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2151,7 +2151,7 @@ const flower_list = [
         meaning: 'welcome',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2160,7 +2160,7 @@ const flower_list = [
         meaning: 'happiness in marriage',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2169,7 +2169,7 @@ const flower_list = [
         meaning: 'you will always be beautiful to me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2178,7 +2178,7 @@ const flower_list = [
         meaning: 'tranquility',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2187,7 +2187,7 @@ const flower_list = [
         meaning: 'perfection',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2196,7 +2196,7 @@ const flower_list = [
         meaning: 'false riches',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2205,7 +2205,7 @@ const flower_list = [
         meaning: 'simplicity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2214,7 +2214,7 @@ const flower_list = [
         meaning: 'delicate pleasures',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2223,7 +2223,7 @@ const flower_list = [
         meaning: 'gallantry',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2232,7 +2232,7 @@ const flower_list = [
         meaning: 'i declare war against you',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2241,7 +2241,7 @@ const flower_list = [
         meaning: 'misanthropy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2250,7 +2250,7 @@ const flower_list = [
         meaning: 'sympathy',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2259,7 +2259,7 @@ const flower_list = [
         meaning: 'activity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2268,7 +2268,7 @@ const flower_list = [
         meaning: 'neglected beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2277,7 +2277,7 @@ const flower_list = [
         meaning: 'modest beauty',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2286,7 +2286,7 @@ const flower_list = [
         meaning: 'fame',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2295,17 +2295,17 @@ const flower_list = [
         meaning: 'dangerous pleasures',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
         name: 'tulip',
         scientificName: 'Tulipa',
         meaning: 'declaration of love',
-        description: '',
+        description: 'The tulip is the most popular of the spring-flowering bulbs. It also offers the greatest variety in color, shape, and form of any bulb. Although tulips are associated with Holland, they actually are not native there; tulips descend mostly from species originating in the Middle East. Tulips typically bear cup-shaped flowers in almost every shade but true blue. They can be double or single, fringed or twisted, perfumed or nonscented. The plants range in size from rock garden miniatures to 2 1/2 feet or more in height. Most have broad leaves that quickly fade away in summer heat. Individual flowers last barely two weeks. However, since tulips offer various flowering seasons, you can have tulips in bloom from snow melt to the beginning of summer.',
         image: 'https://images.homedepot-static.com/productImages/71c23308-8d69-46bd-b9d3-af5a40c6e45c/svn/garden-state-bulb-flower-bulbs-hof18-05-64_1000.jpg',
-        sources: [],
-        imageSource: ''
+        sources: 'https://home.howstuffworks.com/tulip.htm',
+        imageSource: 'homedepot-static.com'
     },
     {
         name: 'turnip',
@@ -2313,7 +2313,7 @@ const flower_list = [
         meaning: 'charity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2322,7 +2322,7 @@ const flower_list = [
         meaning: 'pray for me',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2331,7 +2331,7 @@ const flower_list = [
         meaning: 'i cling to thee',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2340,7 +2340,7 @@ const flower_list = [
         meaning: 'modest worth',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2349,7 +2349,7 @@ const flower_list = [
         meaning: 'fidelity in adversity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2358,7 +2358,7 @@ const flower_list = [
         meaning: 'purity of heart',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2367,7 +2367,7 @@ const flower_list = [
         meaning: 'susceptibility',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2376,7 +2376,7 @@ const flower_list = [
         meaning: 'prosperity',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2385,7 +2385,7 @@ const flower_list = [
         meaning: 'patience',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2394,7 +2394,7 @@ const flower_list = [
         meaning: 'pretension',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2403,7 +2403,7 @@ const flower_list = [
         meaning: 'deception',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2412,7 +2412,7 @@ const flower_list = [
         meaning: 'welcome',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2421,7 +2421,7 @@ const flower_list = [
         meaning: 'a spell',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2430,7 +2430,7 @@ const flower_list = [
         meaning: 'cure for a broken heart',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     },
     {
@@ -2439,7 +2439,7 @@ const flower_list = [
         meaning: 'i mourn your absence',
         description: '',
         image: '',
-        sources: [],
+        sources: '',
         imageSource: ''
     }
 ]
