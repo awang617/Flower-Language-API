@@ -7,7 +7,7 @@ const FlowerSchema = new Schema ({
   meaning: String,
   description: String,
   image: String,
-  sources: [String],
+  sources: String,
   imageSource: String
 });
 
