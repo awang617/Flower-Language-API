@@ -25,19 +25,19 @@ const flower_list = [
         name: 'acanthus',
         scientificName: 'Acanthus',
         meaning: 'artifice',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Acanthus is a Mediterranean plant that boasts magnificent blooming all summer long. Its large pink, purple or white panicles are perfect for filling in a flower bed. Care, pruning and planting must all follow good practices to have your acanthus bear very nice flowers.',
+        image: 'https://www.jardiner-malin.fr/wp-content/uploads/2018/08/acanthus.jpg',
+        sources: 'https://www.nature-and-garden.com/gardening/acanthus.html',
+        imageSource: 'https://www.nature-and-garden.com/gardening/acanthus.html'
     },
     {
         name: 'agapanthus',
         scientificName: 'Agapanthus',
         meaning: 'love letter',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Agapanthus is also commonly known as the Lily of the Nile, African Blue Lily, and African Lily. Agapanthus are lily-like blooms and come in clusters made up of many bell-shaped flowers. The Agapanthus clusters are globe-shaped or pendular. Agapanthus flowers are in various shades of blue, from a dusky, powder blue to an almost indigo-purple, but there are some white varieties as well.',
+        image: 'https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/home-and-garden/gardening/plants/perennials/agapanthus/how_to_grow_agapanthus_533494744_768.jpg',
+        sources: 'https://www.theflowerexpert.com/content/growingflowers/flowersandseasons/agapanthus',
+        imageSource: 'https://www.saga.co.uk/magazine/home-garden/gardening/plants/perennials/how-to-grow-agapanthus'
     },
     {
         name: 'allium',
@@ -52,46 +52,46 @@ const flower_list = [
         name: 'almond blossom',
         scientificName: 'Amygdalus communis',
         meaning: 'indiscretion',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'The almond is a species of tree native to Iran and surrounding countries as well as Central Asia, but widely cultivated elsewhere. The almond is also the name of the edible and widely cultivated seed of this tree. The fruit of the almond is a drupe, consisting of an outer hull and a hard shell with the seed, which is not a true nut, inside.',
+        image: 'https://imgc.artprintimages.com/img/print/blossoming-almond-blossoms-with-blue-sky-close-up-spring-santa-maria-del-cami-majorca_u-l-q11vrp30.jpg?h=550&w=550',
+        sources: 'https://en.wikipedia.org/wiki/Almond',
+        imageSource: 'https://www.art.com/products/p45200902057-sa-i10376248/p-kaczynski-blossoming-almond-blossoms-with-blue-sky-close-up-spring-santa-maria-del-cami-majorca.htm'
     },
     {
         name: 'aloe',
         scientificName: 'Aloe vera',
         meaning: 'grief',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Aloe vera (also known as medicinal aloe plant) is a very popular plant that is best known for the healing qualities of the gel. They are common succulent plants, and aloe vera is just one of hundreds of different types of aloe plants. Most people are already very familiar with the medicinal and healing benefits of aloe vera plants. These days you’ll find aloe vera gel in everything from skin and haircare products, to drinks, supplements, and food products.',
+        image: 'https://cdn1.medicalnewstoday.com/content/images/articles/318/318591/aloe-vera-plants.jpg',
+        sources: 'https://getbusygardening.com/aloe-vera-plant-care/',
+        imageSource: 'https://www.medicalnewstoday.com/articles/318591.php'
     },
     {
         name: 'alstroemeria',
         scientificName: 'Alstroemeria',
         meaning: 'devotion',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Alstroemeria, commonly called the Peruvian Lily or Lily of the Incas or Parrot Lily is a South American genus of about 50 species of flowering plants, mainly from the cool, mountainous regions in the Andes. Alstroemeria is more like grass where the veins go up the leaves but none branching across. This can also be seen in grasses, Irises and Lilies. Alstroemeria leaves are upside down. The leaf twists as it leaves the stem, so that the bottom is facing upwards.',
+        image: 'https://www.thompson-morgan.com/product_images/100/zoom/z-z-Alstroemeria_2.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/alstroemeria',
+        imageSource: 'https://www.thompson-morgan.com/p/alstroemeria-indian-summer/p94168TM'
     },
     {
         name: 'alyssum',
         scientificName: 'Lobularia maritima',
         meaning: 'worth beyond beauty',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Sweet alyssum flowers (Lobularia maritima syn. Alyssum maritimum) are useful in alpine rock gardens, borders, planters, hanging baskets and dry zones. They are small plants that may get 3 to 6 inches tall and produce clusters of tiny flowers in clumps. The blooms come in pink, salmon, purple, white and yellow. Flowers arise in June to October and can be encouraged to rebloom by cutting back spent flowers.',
+        image: 'https://www.edenbrothers.com/store/media/Seeds-Flowers/SFALY113-1.jpg',
+        sources: 'https://www.gardeningknowhow.com/ornamental/flowers/alyssum/growing-sweet-alyssum.htm',
+        imageSource: 'https://www.edenbrothers.com/store/sweet_alyssum_tall_white_seeds.html'
     },
     {
         name: 'amaranth',
         scientificName: 'Amaranthus',
         meaning: 'immortality',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Amaranthus is a showy and exotic plant, ideal for beds and borders. Amaranthus are the best accent plants, especially in dried flower arrangements. The long, rope like Amaranthus flowers cascade to the ground from tall, erect branching stems. Amaranthus flowers are breathtaking tassels of the darkest red or green.',
+        image: 'https://cdn.shopify.com/s/files/1/2550/8730/products/v-amaranth-hopi-red-dye_620x.jpg?v=1546689580',
+        sources: 'https://www.theflowerexpert.com/content/growingflowers/flowersandseasons/amaranthus',
+        imageSource: 'https://sowtrueseed.com/products/amaranth-hopi-red-dye'
     },
     {
         name: 'amaryllis',
@@ -115,55 +115,55 @@ const flower_list = [
         name: 'angelica',
         scientificName: 'Angelica pachycarpa',
         meaning: 'inspiration',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Angelica is a stunning white flower that looks like a white starburst exploding across the green hillsides. One of Iceland’s most cherished herbs, it is not only beautiful, but also appreciated as a nutritious food, a liqueur and an herbal remedy. The roots and stems can be boiled or pickled and are considered a delicacy in all of Scandinavia. The stems were used to make a musical flute, as well as flavor reindeer milk or be crystallized in sugar for desserts. Norwegians use the roots in cooking bread and Finns eat the stems cooked in hot ashes, while also drinking a tea infusion of them.',
+        image: 'https://cdn.shopify.com/s/files/1/0223/5181/files/Angelica1.jpg?v=1521496104',
+        sources: 'https://www.lotuswei.com/blogs/blog/flowers-angelica-flower-essence',
+        imageSource: 'https://www.lotuswei.com/blogs/blog/flowers-angelica-flower-essence'
     },
     {
         name: 'apple',
         scientificName: 'Malus domestica',
         meaning: 'temptation',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.',
+        image: 'https://images.homedepot-static.com/productImages/fba55797-ad00-4770-a995-fbe0e9f6fc5d/svn/gurney-s-fruit-trees-plants-61653-64_1000.jpg',
+        sources: 'https://en.wikipedia.org/wiki/Apple',
+        imageSource: 'https://www.homedepot.com/p/Gurney-s-2-65-Qt-Fuji-Reachables-Apple-Malus-Dwarf-Variety-Live-Fruiting-Tree-1-Pack-61653/307354015'
     },
     {
         name: 'apple blossom',
         scientificName: 'Malus domestica',
         meaning: 'preference',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Apple blossom tree is a well-known tree, growing from 20 to 40 feet high, with rigid, crooked, spreading branches, and a rough, blackish bark. The apple tree is a native of Europe, and the Apple blossoms come from April to June. From the fruit, cider is manufactured, and both the fruit and its cider are much used for domestic and medicinal purposes.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Apple_blossoms.jpg',
+        sources: 'https://www.theflowerexpert.com/content/aboutflowers/stateflowers/michigan-state-flowers',
+        imageSource: 'https://en.wikipedia.org/wiki/Washington_State_Apple_Blossom_Festival'
     },
     {
         name: 'aster',
         scientificName: 'Aster',
         meaning: 'patience',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Asters are also called as Starworts, Michaelmas Daisies, or Frost Flowers. Asters are found chiefly in North America, with some species extending into South America; others are distributed throughout Europe and Asia. The word Aster is of Greek derivation and refers to the Starlike flowers that can be white, red, pink, purple, lavender and blue, mostly with yellow centers. ',
+        image: 'https://www.ftd.com/blog/content/uploads/2016/08/hero-aster-meanings-720x480.jpg',
+        sources: 'https://www.theflowerexpert.com/content/growingflowers/flowersandseasons/aster',
+        imageSource: 'https://www.ftd.com/blog/share/aster-meaning-and-symbolism'
     },
     {
         name: 'azalea',
         scientificName: 'Rhododendron',
         meaning: 'fragile and ephemeral passion',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Azaleas are flowering shrubs in the genus Rhododendron, particularly the former sections Tsutsuji (evergreen) and Pentanthera (deciduous). Azaleas bloom in the spring (May and June in the temperate Northern Hemisphere),[1] their flowers often lasting several weeks. Shade tolerant, they prefer living near or under trees. They are part of the family Ericaceae.',
+        image: 'https://www.directgardening.com/1718-thickbox_default/pink-azalea.jpg',
+        sources: 'https://en.wikipedia.org/wiki/Azalea',
+        imageSource: 'https://www.directgardening.com/742-shrubs/7180-pink-azalea#/quantity-1'
     },
     {
         name: `baby's breath`,
         scientificName: 'Gypsophila paniculata',
         meaning: 'everlasting love',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: `Baby's Breath, is a bushy plant with branching habit bearing dainty small flowers on long slender stems. It is native to Central and Eastern Europe. Baby's Breath is a tender and delicate annual. Baby's Breath is a popular flower to accent bouquets, corsages and flower vases, especially as dried flower, besides being a popular flower in the home garden as well.`,
+        image: 'https://www.partiesbymartins.com/image/cache/data/Floral%20March%202014/Bulk%20Floral/Floral%20Babys%20Breath-600x600.jpg',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/gypsophilia',
+        imageSource: 'https://www.partiesbymartins.com/babys-breath'
     },
     {
         name: `bachelor's button`,
@@ -412,10 +412,10 @@ const flower_list = [
         name: 'cherry blossom',
         scientificName: 'Prunus cerasus',
         meaning: 'impermanence',
-        description: '',
-        image: '',
-        sources: '',
-        imageSource: ''
+        description: 'Cherry Blossoms are some of the most beautiful flowers, coming in bright colors. The Cherry Blossom tree in full bloom, during the arrival of spring, is one of the most beautiful sights to behold. The Japanese Cherry starts flowering profusely from the first warmer days in April, heralding the coming of spring. The pink or white flowers grow in racemose clusters at nodes on short spurs. They are past flowering early in May.',
+        image: 'https://d384u2mq2suvbq.cloudfront.net/public/spree/products/1597/jumbo/Japanese-Cherry-Blossom-Fragrance-Oil.jpg?1529607178',
+        sources: 'https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/cherry-blossom',
+        imageSource: 'https://www.candlescience.com/fragrance/japanese-cherry-blossom-fragrance-oil'
     },
     {
         name: 'chervil',
