@@ -14,6 +14,8 @@ See the front end for this project here: https://github.com/awang617/Language-of
 ## Running this project
 1. Clone this repo using ```git clone https://github.com/awang617/Flower-Language-API.git```
 2. Run ```npm install```
+3. Run ```mongobd``` and ```node seed.js``` to seed the database
+4. Run ```node server.js``` or ```nodemon```
 3. Open ```localhost:3001``` in your preferred browser
 
 ## Challenges and Successes
