@@ -11,6 +11,11 @@ https://flower-language-api.herokuapp.com/
 - Javascript
 See the front end for this project here: https://github.com/awang617/Language-of-Flowers
 
+## Running this project
+1. Clone this repo using ```git clone https://github.com/awang617/Flower-Language-API.git```
+2. Run ```npm install```
+3. Open ```localhost:3001``` in your preferred browser
+
 ## Challenges and Successes
 Building this database was a time-consuming task, although it wasn't too difficult. It took a lot of time to compile all the information that I wanted in the dictionary, and presently the database is still not fully complete. Another challenge I encountered was enabling partial search querying on the database. Unfortunately, MongoDB does not have built in capability for partial searches, but I found workaround that worked really well in conjuction with the front end of the project. 
 
